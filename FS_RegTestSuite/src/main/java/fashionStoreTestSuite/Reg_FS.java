@@ -53,7 +53,7 @@ public class Reg_FS
 		repo.attachReporter(htmlRepo);
 	}
 	
-	@Parameters({ "browser" })
+	@Parameters({"browser"})
 	@Test
 	public void launchBrowser(String brow) throws InterruptedException {
 
