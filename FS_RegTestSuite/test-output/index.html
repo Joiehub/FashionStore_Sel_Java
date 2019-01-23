@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\JOSEPHGomes\Documents\TechBodhi_Sel\FS_RegTestSuite\src\main\java\fashionStoreTestSuite\Reg_FS_Suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="fashionStoreTestSuite.Reg_FS" hash-for-method="Add_to_Cart">Add_to_Cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="fashionStoreTestSuite.Reg_FS" hash-for-method="Authenticate_AT_Forgerock">Authenticate_AT_Forgerock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="fashionStoreTestSuite.Reg_FS" hash-for-method="Close_Browser">Close_Browser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="fashionStoreTestSuite.Reg_FS" hash-for-method="Go2Cart_andCheckout">Go2Cart_andCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="fashionStoreTestSuite.Reg_FS" hash-for-method="Go_Shopping">Go_Shopping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="fashionStoreTestSuite.Reg_FS" hash-for-method="Launch_FashionStore">Launch_FashionStore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="fashionStoreTestSuite.Reg_FS" hash-for-method="Payment_Successful">Payment_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="fashionStoreTestSuite.Reg_FS" hash-for-method="Select_Account_Pay">Select_Account_Pay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="fashionStoreTestSuite.Reg_FS" hash-for-method="Select_Bank">Select_Bank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="fashionStoreTestSuite.Reg_FS" hash-for-method="launchBrowser(chrome)">launchBrowser(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">fashionStoreTestSuite.Reg_FS</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_to_Cart">
+                  </a> <!-- Add_to_Cart -->
+                  <span class="method-name">Add_to_Cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Authenticate_AT_Forgerock">
+                  </a> <!-- Authenticate_AT_Forgerock -->
+                  <span class="method-name">Authenticate_AT_Forgerock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Close_Browser">
+                  </a> <!-- Close_Browser -->
+                  <span class="method-name">Close_Browser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Go2Cart_andCheckout">
+                  </a> <!-- Go2Cart_andCheckout -->
+                  <span class="method-name">Go2Cart_andCheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Go_Shopping">
+                  </a> <!-- Go_Shopping -->
+                  <span class="method-name">Go_Shopping</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Launch_FashionStore">
+                  </a> <!-- Launch_FashionStore -->
+                  <span class="method-name">Launch_FashionStore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Payment_Successful">
+                  </a> <!-- Payment_Successful -->
+                  <span class="method-name">Payment_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Select_Account_Pay">
+                  </a> <!-- Select_Account_Pay -->
+                  <span class="method-name">Select_Account_Pay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Select_Bank">
+                  </a> <!-- Select_Bank -->
+                  <span class="method-name">Select_Bank</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchBrowser(chrome)">
+                  </a> <!-- launchBrowser(chrome) -->
+                  <span class="method-name">launchBrowser</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\JOSEPHGomes\Documents\TechBodhi_Sel\FS_RegTestSuite\src\main\java\fashionStoreTestSuite\Reg_FS_Suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Regression Fashion Store: ON CHROME&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;fashionStoreTestSuite.Reg_FS&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression Fashion Store: ON CHROME --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Fashion Store: ON CHROME (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Launch_FashionStore')
+data.setCell(0, 2, 'fashionStoreTestSuite.Reg_FS')
+data.setCell(0, 3, 10490);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Authenticate_AT_Forgerock')
+data.setCell(1, 2, 'fashionStoreTestSuite.Reg_FS')
+data.setCell(1, 3, 9036);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Select_Account_Pay')
+data.setCell(2, 2, 'fashionStoreTestSuite.Reg_FS')
+data.setCell(2, 3, 7233);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Payment_Successful')
+data.setCell(3, 2, 'fashionStoreTestSuite.Reg_FS')
+data.setCell(3, 3, 6908);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'launchBrowser')
+data.setCell(4, 2, 'fashionStoreTestSuite.Reg_FS')
+data.setCell(4, 3, 4574);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Select_Bank')
+data.setCell(5, 2, 'fashionStoreTestSuite.Reg_FS')
+data.setCell(5, 3, 1030);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Close_Browser')
+data.setCell(6, 2, 'fashionStoreTestSuite.Reg_FS')
+data.setCell(6, 3, 635);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Go2Cart_andCheckout')
+data.setCell(7, 2, 'fashionStoreTestSuite.Reg_FS')
+data.setCell(7, 3, 270);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Go_Shopping')
+data.setCell(8, 2, 'fashionStoreTestSuite.Reg_FS')
+data.setCell(8, 3, 147);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Add_to_Cart')
+data.setCell(9, 2, 'fashionStoreTestSuite.Reg_FS')
+data.setCell(9, 3, 102);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">fashionStoreTestSuite.Reg_FS</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public void fashionStoreTestSuite.Reg_FS.launchBrowser(java.lang.String) throws java.lang.Interrupte...)</span>
+                <span class="method-start">264 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">launchBrowser(chrome)</span>
+                <span class="method-start">267 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=launchBrowser status=SUCCESS method=Reg_FS.launchBrowser(java.lang.String)[pri:0, i...)</span>
+                <span class="method-start">4845 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public void fashionStoreTestSuite.Reg_FS.Launch_FashionStore())</span>
+                <span class="method-start">4859 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Launch_FashionStore</span>
+                <span class="method-start">4863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=Launch_FashionStore status=SUCCESS method=Reg_FS.Launch_FashionStore()[pri:1, insta...)</span>
+                <span class="method-start">15355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public void fashionStoreTestSuite.Reg_FS.Go_Shopping())</span>
+                <span class="method-start">15358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Go_Shopping</span>
+                <span class="method-start">15359 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=Go_Shopping status=SUCCESS method=Reg_FS.Go_Shopping()[pri:2, instance:fashionStore...)</span>
+                <span class="method-start">15507 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public void fashionStoreTestSuite.Reg_FS.Add_to_Cart())</span>
+                <span class="method-start">15508 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Add_to_Cart</span>
+                <span class="method-start">15509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=Add_to_Cart status=SUCCESS method=Reg_FS.Add_to_Cart()[pri:3, instance:fashionStore...)</span>
+                <span class="method-start">15614 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public void fashionStoreTestSuite.Reg_FS.Go2Cart_andCheckout())</span>
+                <span class="method-start">15616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Go2Cart_andCheckout</span>
+                <span class="method-start">15617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=Go2Cart_andCheckout status=SUCCESS method=Reg_FS.Go2Cart_andCheckout()[pri:4, insta...)</span>
+                <span class="method-start">15889 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public void fashionStoreTestSuite.Reg_FS.Select_Bank())</span>
+                <span class="method-start">15890 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Select_Bank</span>
+                <span class="method-start">15891 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=Select_Bank status=SUCCESS method=Reg_FS.Select_Bank()[pri:5, instance:fashionStore...)</span>
+                <span class="method-start">16922 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public void fashionStoreTestSuite.Reg_FS.Authenticate_AT_Forgerock())</span>
+                <span class="method-start">16923 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Authenticate_AT_Forgerock</span>
+                <span class="method-start">16924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=Authenticate_AT_Forgerock status=SUCCESS method=Reg_FS.Authenticate_AT_Forgerock()[...)</span>
+                <span class="method-start">25961 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public void fashionStoreTestSuite.Reg_FS.Select_Account_Pay())</span>
+                <span class="method-start">25967 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Select_Account_Pay</span>
+                <span class="method-start">25967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=Select_Account_Pay status=SUCCESS method=Reg_FS.Select_Account_Pay()[pri:7, instanc...)</span>
+                <span class="method-start">33202 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public void fashionStoreTestSuite.Reg_FS.Payment_Successful())</span>
+                <span class="method-start">33203 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Payment_Successful</span>
+                <span class="method-start">33204 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=Payment_Successful status=SUCCESS method=Reg_FS.Payment_Successful()[pri:8, instanc...)</span>
+                <span class="method-start">40113 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">register(public void fashionStoreTestSuite.Reg_FS.Close_Browser())</span>
+                <span class="method-start">40114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Close_Browser</span>
+                <span class="method-start">40115 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureStatus([TestResult name=Close_Browser status=SUCCESS method=Reg_FS.Close_Browser()[pri:9, instance:fashionS...)</span>
+                <span class="method-start">40753 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">40757 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="1" name="Regression Fashion Store: ON CHROME(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="fashionStoreTestSuite.Reg_FS">
+        <methods>
+          <include name="Setup"/>
+          <include name="register"/>
+          <include name="captureStatus"/>
+          <include name="Select_Account_Pay"/>
+          <include name="Payment_Successful"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- fashionStoreTestSuite.Reg_FS -->
+    </classes>
+  </test> <!-- Regression Fashion Store: ON CHROME(failed) -->
+</suite> <!-- Failed suite [Suite] -->
